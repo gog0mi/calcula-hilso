@@ -212,60 +212,6 @@ export function Home() {
                     </div>
                 ))
                 }
-                { 
-                    divs.map((div, index) => (
-                        <div key={index} style={{
-                            display: "flex"
-                        }}>
-                        <div style={{
-                            backgroundColor: div.color,
-                            height: div.height + "px",
-                            width: "100vw",
-                            maxWidth: "500px",
-                        }}
-                        />{/*}
-                        <button type="button" onClick={() => eliminarDiv(index)}>
-                            Eliminar
-                        </button>*/}
-                    </div>
-                ))
-                } 
-                { 
-                    divs.map((div, index) => (
-                        <div key={index} style={{
-                            display: "flex"
-                        }}>
-                        <div style={{
-                            backgroundColor: div.color,
-                            height: div.height + "px",
-                            width: "100vw",
-                            maxWidth: "500px",
-                        }}
-                        />{/*}
-                        <button type="button" onClick={() => eliminarDiv(index)}>
-                            Eliminar
-                        </button>*/}
-                    </div>
-                ))
-                } 
-                { 
-                    divs.map((div, index) => (
-                        <div key={index} style={{
-                            display: "flex"
-                        }}>
-                        <div style={{
-                            backgroundColor: div.color,
-                            height: div.height + "px",
-                            width: "100vw",
-                            maxWidth: "500px",
-                        }}
-                        />{/*}
-                        <button type="button" onClick={() => eliminarDiv(index)}>
-                            Eliminar
-                        </button>*/}
-                    </div>
-                ))
-                } 
             </div>
 
             <h3>Bloques creados</h3>
